@@ -1,0 +1,7 @@
+.mobileHeaderHeight {
+  --mobileHeaderHeight: 112px;
+}
+
+.main {
+  min-height: calc(100vh - var(--mobileHeaderHeight));
+}
